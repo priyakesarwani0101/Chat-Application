@@ -1,0 +1,68 @@
+.ChatPage {
+    background-image: url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(166, 174, 166, 0.7); */
+}
+
+.ChatContainer{
+    height: 85%;
+    width: 50%;
+    border-radius: 8px;
+    background-color: rgb(249, 253, 246);
+}
+
+.ChatHeader {
+    background-color: rgb(65, 183, 15);
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+}
+
+.ChatHeader > h3 {
+    color: white;
+    margin: 2.5vmax;
+    font-size: 1.4vmax;
+}
+
+.ChatHeader img {
+    margin: 2.5vmax;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.ChatBox {
+    height: 70%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.SendInput {
+    height: 14%;
+    margin: auto;
+}
+
+.sendBtn {
+    background-color: rgb(54, 158, 10);
+    color: white;
+    width: 16%;
+    border: 1px solid grey;
+    padding: 1vmax;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.sendBtn:hover {
+    background-color: rgb(21, 117, 8);
+    cursor: pointer;
+}
