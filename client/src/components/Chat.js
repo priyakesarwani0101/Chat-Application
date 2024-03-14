@@ -18,7 +18,7 @@ const Chat = () => {
     };
 
     useEffect(() => {
-        socket = io('http://localhost:3002/', { transports: ['websocket'] });
+        socket = io('https://chat-application-q3wm.onrender.com', { transports: ['websocket'] });
         socket.on('connect', () => {
             setId(socket.id);
         });
