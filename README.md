@@ -34,8 +34,8 @@ environment.
 
 ### Deployed Links:
 
-- [Frontend](https://chat-application-q3wm.onrender.com) - Click here to test and use the Chat application (<span style="color:red;">***<===Please note:===>*** It may take a little time in first time for the server to start, especially since the free version of Render is being used for backend deployment.</span>)
-- [Backend](https://chat-application-pi-dusky.vercel.app/) - This is server link deployed on versel.
+- [Frontend](https://chat-application-pi-dusky.vercel.app/) - Click here to test and use the Chat application (<span style="color:red;">***<===Please note:===>*** It may take a little time in first time for the server to start, especially since the free version of Render is being used for backend deployment.</span>)
+- [Backend](https://chat-application-q3wm.onrender.com) - This is server link deployed on versel.
 
 ## Usage:
 
