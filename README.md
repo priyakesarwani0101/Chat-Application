@@ -11,7 +11,7 @@ environment.
 #### `Express.js`
 #### `Socket.io`
 
-## General Guidelines:
+## General Guidelines (how to run):
 
 ### Frontend Setup:
 
@@ -25,6 +25,10 @@ environment.
 1. Navigate to the `server` directory.
 2. Install dependencies using `npm install`.
 3. Start the backend server using `npm start`.
+
+### Architecture and Concurrency:
+
+The application follows a client-server architecture, where the server is responsible for handling WebSocket connections and broadcasting messages to connected clients. Concurrency is handled using Node.js's event-driven, non-blocking I/O model. The server can handle multiple client connections concurrently without blocking other operations.
 
 ### Deployment Information:
 
